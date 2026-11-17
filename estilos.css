@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  border: 5px solid #f60707;
+}
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* jsdhk sjfh skdfjh sd */
+
+.cabecalho {
+  display: flex;
+  gap: 30px; /* Espaçamento entre os elementos */
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f60707;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(19, 19, 174);
+  font-size: 50px;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 255);
+  font-size: 20px;
+}
+.cabecalho h1 {
+  color: rgb(255, 255, 255);
+}
+.corpo h1 {
+  color: rgb(233, 95, 95);
+}
+
+.imagemlogo {
+  width: 50%;
+
+  border-radius: 10px;
+}
+
+.imagem {
+  background-image: url(imagens/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+}
+.primeiro {
+  color: rgb(255, 255, 255);
+}
